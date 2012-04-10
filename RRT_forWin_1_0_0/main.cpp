@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include "RRT.h"
 
 int main(void){
-	printf("Hello world!\n");
+	CRRT rrt;
+	rrt.RunRRT();
+	rrt.PathPlanning();
 }
